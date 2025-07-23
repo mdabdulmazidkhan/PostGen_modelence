@@ -63,25 +63,24 @@ This project is your all-in-one solution for creating, managing, and saving soci
    - Select your platform (e.g., Twitter), tone (e.g., Professional), and length (e.g., Medium).
    - Click **Generate**. The AI creates several unique posts for you!
 
-   ![Post Generation Example](./docs/screenshots/generate.png)
+  
 
 2. **Review & Manage:**
    - Browse your generated posts. Copy, favorite, or export any post you like.
    - Use the **History** tab to see all your past generations. Search and filter by platform or keyword.
    - Mark your favorite posts for quick access in the **Favorites** tab.
 
-   ![History Example](./docs/screenshots/history.png)
-   ![Favorites Example](./docs/screenshots/favorites.png)
+  
 
 3. **Personalize:**
    - Visit the **Settings** tab to set your default platform and auto-save preferences.
    - Toggle between dark and light mode for a comfortable viewing experience.
 
-   ![Settings Example](./docs/screenshots/settings.png)
+  
 
 ---
 
-## 🛠️ Tech Stack (What Powers This App?)
+## 🛠️ Tech Stack 
 
 - **Frontend:** React, TypeScript, TailwindCSS for a modern, responsive UI.
 - **Backend:** Modelence framework (Node.js, TypeScript) for robust API and data management.
@@ -127,19 +126,6 @@ modelence postgenai/
 
 ---
 
-## 🛠️ Customization & Tips
-
-- **Add New Platforms or Tones:**
-  - Update the `platforms` and `tones` arrays in `PostGenerator.tsx` and backend prompt logic.
-- **Change AI Model:**
-  - Modify the provider/model in the backend (`index.ts` in server/post-generator).
-- **Styling:**
-  - Edit TailwindCSS classes or update `tailwind.config.js` for custom themes.
-- **Authentication:**
-  - Integrate with Modelence Auth or your preferred auth provider for user accounts.
-- **Pro Tip:** Use the export feature to save your best posts for later campaigns!
-
----
 
 ## 🤝 Contributing
 
